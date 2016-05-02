@@ -1,0 +1,1 @@
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\Console\bin\Debug\Console.exe.config

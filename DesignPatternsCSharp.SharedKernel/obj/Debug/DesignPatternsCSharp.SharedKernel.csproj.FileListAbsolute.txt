@@ -1,0 +1,5 @@
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SharedKernel\bin\Debug\DesignPatternsCSharp.SharedKernel.dll
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SharedKernel\bin\Debug\DesignPatternsCSharp.SharedKernel.pdb
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SharedKernel\obj\Debug\DesignPatternsCSharp.SharedKernel.csprojResolveAssemblyReference.cache
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SharedKernel\obj\Debug\DesignPatternsCSharp.SharedKernel.dll
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SharedKernel\obj\Debug\DesignPatternsCSharp.SharedKernel.pdb

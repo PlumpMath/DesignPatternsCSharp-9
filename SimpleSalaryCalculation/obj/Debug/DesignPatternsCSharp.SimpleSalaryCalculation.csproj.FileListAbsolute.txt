@@ -1,0 +1,5 @@
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\SimpleSalaryCalculation\bin\Debug\SimpleSalaryCalculation.dll
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\SimpleSalaryCalculation\bin\Debug\SimpleSalaryCalculation.pdb
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\SimpleSalaryCalculation\obj\Debug\DesignPatternsCSharp.SimpleSalaryCalculation.csprojResolveAssemblyReference.cache
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\SimpleSalaryCalculation\obj\Debug\SimpleSalaryCalculation.dll
+D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\SimpleSalaryCalculation\obj\Debug\SimpleSalaryCalculation.pdb
