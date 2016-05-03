@@ -7,7 +7,7 @@
     <ProjectGuid>{5D0C7266-2CC7-4284-98C8-D75FB0BDBB14}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatternsCSharp.SimpleTaxCalculator</RootNamespace>
+    <RootNamespace>DesignPatternsCSharp.TaxCalculation</RootNamespace>
     <AssemblyName>DesignPatternsCSharp.SimpleTaxCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -51,6 +51,8 @@
     <Compile Include="R2TaxCalculationWithJoiningDate\TaxCalculationWithJoiningDate.cs" />
     <Compile Include="R3TaxCalculationWithNationality\TaxCalculationConditions.cs" />
     <Compile Include="R3TaxCalculationWithNationality\TaxCalculationWithNationality.cs" />
+    <Compile Include="R5MoreSchemesForOtherNationalities\EgyptTaxCalculator.cs" />
+    <Compile Include="R5MoreSchemesForOtherNationalities\MoreSchemesForOtherNationalities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

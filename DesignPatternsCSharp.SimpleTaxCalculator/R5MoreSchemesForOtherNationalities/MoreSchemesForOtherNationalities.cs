@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsCSharp.TaxCalculation
 {
-
-    public class RefactoredDifferentSchemesForNationalities
+    public class MoreSchemesForOtherNationalities
     {
         public double calculate(TaxCalculationConditions conditions)
         {
@@ -19,13 +18,12 @@ namespace DesignPatternsCSharp.TaxCalculation
             
             //Strategy Pattern
             if (conditions.Nationality == Nationality.US)
-            {
                 taxCalculator = new USTaxCalculator();
-            }
-            else
-            {
+            else if(conditions.Nationality == Nationality.Canada)
                 taxCalculator = new CanadaTaxCalculator();
-            }
+            else
+                taxCalculator = new EgyptTaxCalculator();
+            
             return taxCalculator.calculate(conditions);
         }
     }
