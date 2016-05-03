@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsCSharp.SimpleTaxCalculator
 {
-    public class TaxCalculationWithNationality
+    public class USTaxCalculator : ITaxCalculator
     {
         public double calculate(TaxCalculationConditions conditions)
-        {   
+        {
             double tax;
-            DateTime SixMonthsEarlier = DateTime.Now.AddMonths(-6);
-            if (conditions.JoiningDate > SixMonthsEarlier)
-                return 0;
             if (conditions.Income < 2000)
                 tax = conditions.Income * 0.05;
             else if (conditions.Income < 5000)
@@ -22,8 +19,8 @@ namespace DesignPatternsCSharp.SimpleTaxCalculator
                 tax = conditions.Income * 0.15;
             else
                 tax = conditions.Income * 0.20;
-            if (conditions.Nationality == Nationality.US)
-                tax += conditions.Income * 0.05;
+
+            tax += conditions.Income * 0.05;
             return Math.Round(tax, 2);
         }
     }

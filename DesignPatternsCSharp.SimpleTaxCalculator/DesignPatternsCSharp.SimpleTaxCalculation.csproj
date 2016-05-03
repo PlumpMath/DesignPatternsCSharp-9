@@ -41,10 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DifferentSchemesForNationalities\DifferentSchemesForNationalities.cs" />
+    <Compile Include="DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\CanadaTaxCalculator.cs" />
+    <Compile Include="DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\ITaxCalculator.cs" />
+    <Compile Include="DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities.cs" />
+    <Compile Include="DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\USTaxCalculator.cs" />
     <Compile Include="Nationality.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleTaxCalculation\SimpleTaxCalculator.cs" />
     <Compile Include="TaxCalculationWithJoiningDate\TaxCalculationWithJoiningDate.cs" />
+    <Compile Include="TaxCalculationWithNationality\TaxCalculationConditions.cs" />
     <Compile Include="TaxCalculationWithNationality\TaxCalculationWithNationality.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
