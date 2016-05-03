@@ -10,3 +10,15 @@ D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tes
 D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.pdb
 D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\SimpleSalaryCalculation.dll
 D:\InPractice\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\SimpleSalaryCalculation.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.Tests.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SharedKernel.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\SimpleSalaryCalculation.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SharedKernel.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\SimpleSalaryCalculation.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.csprojResolveAssemblyReference.cache
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.pdb

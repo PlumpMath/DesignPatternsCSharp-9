@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsCSharp.SimpleTaxCalculator
 {
-    class TaxCalculationWithNationality
+    public enum Nationality
     {
+        US,
+        Canada
     }
 }
