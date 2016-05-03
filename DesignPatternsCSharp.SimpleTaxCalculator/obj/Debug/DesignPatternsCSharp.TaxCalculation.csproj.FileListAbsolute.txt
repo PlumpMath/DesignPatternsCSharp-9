@@ -1,0 +1,4 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SimpleTaxCalculator\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SimpleTaxCalculator\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SimpleTaxCalculator\obj\Debug\DesignPatternsCSharp.SimpleTaxCalculator.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.SimpleTaxCalculator\obj\Debug\DesignPatternsCSharp.SimpleTaxCalculator.pdb

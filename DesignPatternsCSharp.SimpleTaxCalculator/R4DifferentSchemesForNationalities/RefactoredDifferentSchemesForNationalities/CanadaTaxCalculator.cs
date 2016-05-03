@@ -4,23 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsCSharp.SimpleTaxCalculator
+namespace DesignPatternsCSharp.TaxCalculation
 {
-    public class USTaxCalculator : ITaxCalculator
+    public class CanadaTaxCalculator : ITaxCalculator
     {
         public double calculate(TaxCalculationConditions conditions)
         {
             double tax;
-            if (conditions.Income < 2000)
+            if (conditions.Income < 1500)
                 tax = conditions.Income * 0.05;
-            else if (conditions.Income < 5000)
+            else if (conditions.Income < 3000)
                 tax = conditions.Income * 0.1;
-            else if (conditions.Income < 10000)
+            else if (conditions.Income < 7000)
                 tax = conditions.Income * 0.15;
             else
                 tax = conditions.Income * 0.20;
-
-            tax += conditions.Income * 0.05;
             return Math.Round(tax, 2);
         }
     }

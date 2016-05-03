@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsCSharp.SimpleTaxCalculator
+namespace DesignPatternsCSharp.TaxCalculation
 {
     public class TaxCalculationWithNationality
     {

@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsCSharp.SimpleTaxCalculator
+namespace DesignPatternsCSharp.TaxCalculation
 {
-    public class TaxCalculationWithJoiningDate
+    public class SimpleTaxCalculator
     {
-        public double calculate(double income,DateTime joiningDate)
+
+        public double calculate(double income)
         {
             double tax;
-            DateTime SixMonthsEarlier = DateTime.Now.AddMonths(-6);
-            if (joiningDate > SixMonthsEarlier)
-                return 0;
             if (income < 2000)
                 tax = income * 0.05;
             else if (income < 5000)
@@ -22,7 +20,7 @@ namespace DesignPatternsCSharp.SimpleTaxCalculator
                 tax = income * 0.15;
             else
                 tax = income * 0.20;
-            return Math.Round(tax, 2);
+            return Math.Round(tax, 2);                
         }
     }
 }

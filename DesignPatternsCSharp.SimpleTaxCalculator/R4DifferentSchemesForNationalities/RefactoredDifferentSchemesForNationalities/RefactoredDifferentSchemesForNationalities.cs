@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsCSharp.SimpleTaxCalculator
+namespace DesignPatternsCSharp.TaxCalculation
 {
-    class RefactoredDifferentSchemesForNationalities
+    public class RefactoredDifferentSchemesForNationalities
     {
         public double calculate(TaxCalculationConditions conditions)
         {
@@ -25,6 +25,5 @@ namespace DesignPatternsCSharp.SimpleTaxCalculator
             }
             return taxCalculator.calculate(conditions);
         }
-
     }
 }

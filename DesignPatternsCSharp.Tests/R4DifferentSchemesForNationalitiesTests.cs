@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DesignPatternsCSharp.SimpleTaxCalculator;
+using DesignPatternsCSharp.TaxCalculation;
 namespace DesignPatternsCSharp.Tests
 {
     [TestClass]
-    public class DifferentSchemesForNationalitiesTests
+    public class R4DifferentSchemesForNationalitiesTests
     {
         [TestMethod]
         public void USCitizenWithIncomeLessThan2000()

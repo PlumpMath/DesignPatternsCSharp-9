@@ -50,25 +50,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="SimpleSalaryCalculationTests.cs" />
-    <Compile Include="DifferentSchemesForNationalitiesTests.cs" />
-    <Compile Include="TaxCalculationWithNationalityTests.cs" />
-    <Compile Include="TaxCalculationWithJoiningDateTests.cs" />
-    <Compile Include="SimpleTaxCalculationTests.cs" />
+    <Compile Include="R4DifferentSchemesForNationalitiesTests.cs" />
+    <Compile Include="R3TaxCalculationWithNationalityTests.cs" />
+    <Compile Include="R2TaxCalculationWithJoiningDateTests.cs" />
+    <Compile Include="R1SimpleTaxCalculationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DesignPatternsCSharp.SharedKernel\DesignPatternsCSharp.SharedKernel.csproj">
-      <Project>{da7bf8a2-110c-480d-96d7-f132bd63d72c}</Project>
-      <Name>DesignPatternsCSharp.SharedKernel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatternsCSharp.SimpleTaxCalculator\DesignPatternsCSharp.SimpleTaxCalculation.csproj">
+    <ProjectReference Include="..\DesignPatternsCSharp.SimpleTaxCalculator\DesignPatternsCSharp.TaxCalculation.csproj">
       <Project>{5d0c7266-2cc7-4284-98c8-d75fb0bdbb14}</Project>
-      <Name>DesignPatternsCSharp.SimpleTaxCalculation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SimpleSalaryCalculation\DesignPatternsCSharp.SimpleSalaryCalculation.csproj">
-      <Project>{8cf25d18-484d-4153-a956-7f1266f98596}</Project>
-      <Name>DesignPatternsCSharp.SimpleSalaryCalculation</Name>
+      <Name>DesignPatternsCSharp.TaxCalculation</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
