@@ -15,7 +15,7 @@ namespace DesignPatternsCSharp.TaxCalculation
             if (conditions.JoiningDate > SixMonthsEarlier)
                 return 0;
             ITaxCalculator taxCalculator = null;
-            
+           
             //Strategy Pattern
             if (conditions.Nationality == Nationality.US)
                 taxCalculator = new USTaxCalculator();

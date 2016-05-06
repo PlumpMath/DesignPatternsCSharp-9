@@ -16,27 +16,37 @@ namespace DesignPatternsCSharp.TaxCalculation
                 return 0;
             if (conditions.Nationality == Nationality.US)
             {
-                if (conditions.Income < 2000)
-                    tax = conditions.Income * 0.05;
-                else if (conditions.Income < 5000)
-                    tax = conditions.Income * 0.1;
-                else if (conditions.Income < 10000)
-                    tax = conditions.Income * 0.15;
+                int years = DateTime.Now.Year - conditions.BirthDate.Year;
+                if (years < 20)
+                    tax = 0;
                 else
-                    tax = conditions.Income * 0.20;
-
-                tax += conditions.Income * 0.05;
+                {
+                    if (conditions.Income < 2000)
+                        tax = conditions.Income * 0.05;
+                    else if (conditions.Income < 5000)
+                        tax = conditions.Income * 0.1;
+                    else if (conditions.Income < 10000)
+                        tax = conditions.Income * 0.15;
+                    else
+                        tax = conditions.Income * 0.20;
+                    tax += conditions.Income * 0.05;
+                }
             }
             else if(conditions.Nationality == Nationality.Canada)
             {
-                if (conditions.Income < 1500)
-                    tax = conditions.Income * 0.05;
-                else if (conditions.Income < 3000)
-                    tax = conditions.Income * 0.1;
-                else if (conditions.Income < 7000)
-                    tax = conditions.Income * 0.15;
+                if (conditions.JoiningDate == null)
+                    tax = 0;
                 else
-                    tax = conditions.Income * 0.20;   
+                {
+                    if (conditions.Income < 1500)
+                        tax = conditions.Income * 0.05;
+                    else if (conditions.Income < 3000)
+                        tax = conditions.Income * 0.1;
+                    else if (conditions.Income < 7000)
+                        tax = conditions.Income * 0.15;
+                    else
+                        tax = conditions.Income * 0.20;
+                }
             }
             else
             {

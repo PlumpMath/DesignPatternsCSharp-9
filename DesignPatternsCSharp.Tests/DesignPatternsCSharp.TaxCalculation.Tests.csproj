@@ -6,7 +6,7 @@
     <ProjectGuid>{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatternsCSharp.Tests</RootNamespace>
+    <RootNamespace>DesignPatternsCSharp.TaxCalculation.Tests</RootNamespace>
     <AssemblyName>DesignPatternsCSharp.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
