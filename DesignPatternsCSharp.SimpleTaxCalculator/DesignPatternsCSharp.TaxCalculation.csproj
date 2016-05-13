@@ -54,6 +54,10 @@
     <Compile Include="R3TaxCalculationWithNationality\TaxCalculationWithNationality.cs" />
     <Compile Include="R5MoreSchemesForOtherNationalities\EgyptTaxCalculator.cs" />
     <Compile Include="R5MoreSchemesForOtherNationalities\MoreSchemesForOtherNationalities.cs" />
+    <Compile Include="R6DynamicSchemes\DynamicSchemes.cs" />
+    <Compile Include="R6DynamicSchemes\SchemeCondition.cs" />
+    <Compile Include="R6DynamicSchemes\TaxCalculator.cs" />
+    <Compile Include="R6DynamicSchemes\USTaxCalculator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

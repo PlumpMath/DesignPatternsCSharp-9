@@ -5,7 +5,11 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.TaxCalculation", "DesignPatternsCSharp.SimpleTaxCalculator\DesignPatternsCSharp.TaxCalculation.csproj", "{5D0C7266-2CC7-4284-98C8-D75FB0BDBB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.Tests", "DesignPatternsCSharp.Tests\DesignPatternsCSharp.Tests.csproj", "{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.TaxCalculation.Tests", "DesignPatternsCSharp.Tests\DesignPatternsCSharp.TaxCalculation.Tests.csproj", "{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.UserLogAnalysis.Tests", "DesignPatternsCSharp.LogAnalysis.Tests\DesignPatternsCSharp.UserLogAnalysis.Tests.csproj", "{AA4680D2-430E-487B-9EBC-AD6858E84804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.UserLogAnalysis", "DesignPatternsCSharp.UserLogAnalysis\DesignPatternsCSharp.UserLogAnalysis.csproj", "{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8043D6B-22C2-4E62-BCBC-AF12ED129D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4680D2-430E-487B-9EBC-AD6858E84804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4680D2-430E-487B-9EBC-AD6858E84804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4680D2-430E-487B-9EBC-AD6858E84804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4680D2-430E-487B-9EBC-AD6858E84804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

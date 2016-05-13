@@ -1,0 +1,8 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\bin\Debug\DesignPatternsCSharp.LogAnalysis.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\bin\Debug\DesignPatternsCSharp.LogAnalysis.Tests.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\bin\Debug\DesignPatternsCSharp.LogAnalysis.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\bin\Debug\DesignPatternsCSharp.LogAnalysis.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\obj\Debug\DesignPatternsCSharp.LogAnalysis.Tests.csprojResolveAssemblyReference.cache
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\obj\Debug\DesignPatternsCSharp.LogAnalysis.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis.Tests\obj\Debug\DesignPatternsCSharp.LogAnalysis.Tests.pdb

@@ -1,0 +1,8 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.Tests.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\bin\Debug\DesignPatternsCSharp.SimpleTaxCalculator.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.TaxCalculation.Tests.csprojResolveAssemblyReference.cache
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.Tests\obj\Debug\DesignPatternsCSharp.Tests.pdb

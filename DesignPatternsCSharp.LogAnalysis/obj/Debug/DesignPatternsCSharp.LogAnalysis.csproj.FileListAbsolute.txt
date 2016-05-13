@@ -1,0 +1,11 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\bin\Debug\DesignPatternsCSharp.LogAnalysis.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\bin\Debug\DesignPatternsCSharp.LogAnalysis.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\bin\Debug\DesignPatternsCSharp.LogAnalysis.apk
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\bin\Debug\DesignPatternsCSharp.LogAnalysis-Signed.apk
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\DesignPatternsCSharp.LogAnalysis.csprojResolveAssemblyReference.cache
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\DesignPatternsCSharp.LogAnalysis.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\DesignPatternsCSharp.LogAnalysis.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\android\bin\DesignPatternsCSharp.LogAnalysis.apk
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\res\values\strings.xml
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\R.cs.flag
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.LogAnalysis\obj\Debug\uploadflags.txt

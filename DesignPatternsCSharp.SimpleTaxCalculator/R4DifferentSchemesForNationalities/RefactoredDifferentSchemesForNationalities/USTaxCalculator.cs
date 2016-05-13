@@ -22,7 +22,6 @@ namespace DesignPatternsCSharp.TaxCalculation
                 tax = conditions.Income * 0.15;
             else
                 tax = conditions.Income * 0.20;
-
             tax += conditions.Income * 0.05;
             return Math.Round(tax, 2);
         }

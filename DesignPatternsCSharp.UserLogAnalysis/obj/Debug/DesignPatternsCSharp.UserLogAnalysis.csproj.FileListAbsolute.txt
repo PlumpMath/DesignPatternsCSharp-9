@@ -1,0 +1,4 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.UserLogAnalysis\bin\Debug\DesignPatternsCSharp.UserLogAnalysis.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.UserLogAnalysis\bin\Debug\DesignPatternsCSharp.UserLogAnalysis.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.UserLogAnalysis\obj\Debug\DesignPatternsCSharp.UserLogAnalysis.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.UserLogAnalysis\obj\Debug\DesignPatternsCSharp.UserLogAnalysis.pdb

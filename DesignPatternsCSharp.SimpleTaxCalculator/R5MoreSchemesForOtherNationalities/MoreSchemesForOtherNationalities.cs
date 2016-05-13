@@ -22,8 +22,7 @@ namespace DesignPatternsCSharp.TaxCalculation
             else if(conditions.Nationality == Nationality.Canada)
                 taxCalculator = new CanadaTaxCalculator();
             else
-                taxCalculator = new EgyptTaxCalculator();
-            
+                taxCalculator = new EgyptTaxCalculator();            
             return taxCalculator.calculate(conditions);
         }
     }
