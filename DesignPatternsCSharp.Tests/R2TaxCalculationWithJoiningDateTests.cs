@@ -9,7 +9,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void EmployeeForLessThanSixMonths()
         {
-            TaxCalculationWithJoiningDate calculator = new TaxCalculationWithJoiningDate();
+            R2TaxCalculationWithJoiningDate calculator = new R2TaxCalculationWithJoiningDate();
             DateTime joiningDate = DateTime.Now.AddMonths(-3);
             double income = 1000;
             double calculatedTaxes = calculator.calculate(income,joiningDate);
@@ -19,7 +19,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void EmployeeForExactlySixMonths()
         {
-            TaxCalculationWithJoiningDate calculator = new TaxCalculationWithJoiningDate();
+            R2TaxCalculationWithJoiningDate calculator = new R2TaxCalculationWithJoiningDate();
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double income = 1000;
             double calculatedTaxes = calculator.calculate(income, joiningDate);
@@ -29,7 +29,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void EmployeeForMoreThanSixMonths()
         {
-            TaxCalculationWithJoiningDate calculator = new TaxCalculationWithJoiningDate();
+            R2TaxCalculationWithJoiningDate calculator = new R2TaxCalculationWithJoiningDate();
             DateTime joiningDate = DateTime.Now.AddMonths(-12);
             double income = 1000;
             double calculatedTaxes = calculator.calculate(income, joiningDate);

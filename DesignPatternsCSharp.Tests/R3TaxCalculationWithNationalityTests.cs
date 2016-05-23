@@ -9,7 +9,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizen()
         {
-            TaxCalculationWithNationality calculator = new TaxCalculationWithNationality();
+            R3TaxCalculationWithNationality calculator = new R3TaxCalculationWithNationality();
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double income = 1000;
             DateTime birthDate = new DateTime(1988, 05, 20);
@@ -23,7 +23,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void NonUSCitizen()
         {
-            TaxCalculationWithNationality calculator = new TaxCalculationWithNationality();
+            R3TaxCalculationWithNationality calculator = new R3TaxCalculationWithNationality();
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double income = 1000;
             DateTime birthDate = new DateTime(1988, 05, 20);

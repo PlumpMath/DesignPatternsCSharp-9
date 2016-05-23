@@ -1,0 +1,5 @@
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.CRM\bin\Debug\DesignPatternsCSharp.CRM.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.CRM\bin\Debug\DesignPatternsCSharp.CRM.pdb
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.CRM\obj\Debug\DesignPatternsCSharp.CRM.csprojResolveAssemblyReference.cache
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.CRM\obj\Debug\DesignPatternsCSharp.CRM.dll
+D:\InPractice\Repos\DesignPatternsCSharp\DesignPatternsCSharp\DesignPatternsCSharp.CRM\obj\Debug\DesignPatternsCSharp.CRM.pdb

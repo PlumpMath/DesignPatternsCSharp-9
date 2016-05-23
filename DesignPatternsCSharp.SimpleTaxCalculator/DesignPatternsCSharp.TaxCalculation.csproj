@@ -41,23 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DirtyTaxCalculation\DirtyTaxCalculation.cs" />
-    <Compile Include="R4DifferentSchemesForNationalities\DifferentSchemesForNationalities.cs" />
+    <Compile Include="R1SimpleTaxCalculation\R1SimpleTaxCalculator.cs" />
+    <Compile Include="R2TaxCalculationWithJoiningDate\R2TaxCalculationWithJoiningDate.cs" />
+    <Compile Include="R3TaxCalculationWithNationality\R3TaxCalculationWithNationality.cs" />
+    <Compile Include="R4DifferentSchemesForNationalities\R4DifferentSchemesForNationalities.cs" />
     <Compile Include="R4DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\CanadaTaxCalculator.cs" />
     <Compile Include="R4DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\ITaxCalculator.cs" />
     <Compile Include="R4DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities.cs" />
     <Compile Include="R4DifferentSchemesForNationalities\RefactoredDifferentSchemesForNationalities\USTaxCalculator.cs" />
     <Compile Include="Nationality.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="R1SimpleTaxCalculation\SimpleTaxCalculator.cs" />
-    <Compile Include="R2TaxCalculationWithJoiningDate\TaxCalculationWithJoiningDate.cs" />
     <Compile Include="R3TaxCalculationWithNationality\TaxCalculationConditions.cs" />
-    <Compile Include="R3TaxCalculationWithNationality\TaxCalculationWithNationality.cs" />
     <Compile Include="R5MoreSchemesForOtherNationalities\EgyptTaxCalculator.cs" />
-    <Compile Include="R5MoreSchemesForOtherNationalities\MoreSchemesForOtherNationalities.cs" />
-    <Compile Include="R6DynamicSchemes\DynamicSchemes.cs" />
-    <Compile Include="R6DynamicSchemes\SchemeCondition.cs" />
-    <Compile Include="R6DynamicSchemes\TaxCalculator.cs" />
-    <Compile Include="R6DynamicSchemes\USTaxCalculator.cs" />
+    <Compile Include="R5MoreSchemesForOtherNationalities\R5MoreSchemesForOtherNationalities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

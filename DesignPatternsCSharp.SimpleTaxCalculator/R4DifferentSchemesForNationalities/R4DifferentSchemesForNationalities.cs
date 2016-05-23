@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsCSharp.TaxCalculation
 {
-    public class DifferentSchemesForNationalities
+    public class R4DifferentSchemesForNationalities
     {
         public double calculate(double income,DateTime joiningDate,Nationality nationality)
         {

@@ -9,7 +9,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeLessThan2000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 1000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income,joiningDate,Nationality.US);
@@ -24,7 +24,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeEquals2000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 2000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -39,7 +39,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeBetween2000And5000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 3000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -53,7 +53,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeEquals5000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 5000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -67,7 +67,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeBetween5000And10000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 6000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -81,7 +81,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeEquals10000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 10000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -95,7 +95,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void USCitizenWithIncomeMoreThan10000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 15000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.US);
@@ -110,7 +110,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeLessThan1500()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 1000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -123,7 +123,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeEquals1500()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 1500;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -136,7 +136,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeBetween1500And3000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 2000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -148,7 +148,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeEquals3000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 3000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -160,7 +160,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeBetween3000And7000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 5000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -172,7 +172,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeEquals7000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 7000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
@@ -184,7 +184,7 @@ namespace DesignPatternsCSharp.Tests
         [TestMethod]
         public void OtherCitizenWithIncomeMoreThan7000()
         {
-            DifferentSchemesForNationalities calculator = new DifferentSchemesForNationalities();
+            R4DifferentSchemesForNationalities calculator = new R4DifferentSchemesForNationalities();
             double income = 7000;
             DateTime joiningDate = DateTime.Now.AddMonths(-6);
             double calculatedTaxes = calculator.calculate(income, joiningDate, Nationality.Canada);
