@@ -13,5 +13,10 @@ namespace DesignPatternsCSharp.CRM
         {
             Debug.WriteLine("Welcome email was sent to customer: " + customer.FirstName);
         }
+
+        internal void sendOrderEmail(Order order)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

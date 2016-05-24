@@ -29,5 +29,10 @@ namespace DesignPatternsCSharp.CRM
         {
             throw new NotImplementedException();
         }
+
+        internal void addPointsToCustomer(int customerId, int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

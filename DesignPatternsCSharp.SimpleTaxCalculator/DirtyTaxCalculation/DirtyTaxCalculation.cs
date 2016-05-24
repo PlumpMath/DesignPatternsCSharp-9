@@ -11,9 +11,7 @@ namespace DesignPatternsCSharp.TaxCalculation
         public double calculate(TaxCalculationConditions conditions)
         {
             double tax;
-            DateTime SixMonthsEarlier = DateTime.Now.AddMonths(-6);
-            if (conditions.JoiningDate > SixMonthsEarlier)
-                return 0;
+            //US
             if (conditions.Nationality == Nationality.US)
             {
                 int years = DateTime.Now.Year - conditions.BirthDate.Year;
@@ -32,12 +30,9 @@ namespace DesignPatternsCSharp.TaxCalculation
                     tax += conditions.Income * 0.05;
                 }
             }
+            //Canada
             else if(conditions.Nationality == Nationality.Canada)
             {
-                if (conditions.JoiningDate == null)
-                    tax = 0;
-                else
-                {
                     if (conditions.Income < 1500)
                         tax = conditions.Income * 0.05;
                     else if (conditions.Income < 3000)
@@ -46,8 +41,9 @@ namespace DesignPatternsCSharp.TaxCalculation
                         tax = conditions.Income * 0.15;
                     else
                         tax = conditions.Income * 0.20;
-                }
+                
             }
+            //EGYPT
             else
             {
                 tax = conditions.Income * 0.05;

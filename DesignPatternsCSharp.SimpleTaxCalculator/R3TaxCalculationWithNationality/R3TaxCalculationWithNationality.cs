@@ -11,9 +11,6 @@ namespace DesignPatternsCSharp.TaxCalculation
         public double calculate(TaxCalculationConditions conditions)
         {   
             double tax;
-            DateTime SixMonthsEarlier = DateTime.Now.AddMonths(-6);
-            if (conditions.JoiningDate > SixMonthsEarlier)
-                return 0;
             if (conditions.Income < 2000)
                 tax = conditions.Income * 0.05;
             else if (conditions.Income < 5000)

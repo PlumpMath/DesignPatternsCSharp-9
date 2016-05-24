@@ -11,12 +11,7 @@ namespace DesignPatternsCSharp.TaxCalculation
     {
         public double calculate(TaxCalculationConditions conditions)
         {
-            double tax;
-            DateTime SixMonthsEarlier = DateTime.Now.AddMonths(-6);
-            if (conditions.JoiningDate > SixMonthsEarlier)
-                return 0;
             ITaxCalculator taxCalculator = null;
-            
             //Strategy Pattern
             if (conditions.Nationality == Nationality.US)
             {

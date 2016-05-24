@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsCSharp.TaxCalculation
 {
-    interface ITaxCalculator
+    public interface ITaxCalculator
     {
          double calculate(TaxCalculationConditions conditions);
     }

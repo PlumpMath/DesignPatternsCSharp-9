@@ -11,8 +11,6 @@ namespace DesignPatternsCSharp.TaxCalculation
         public double calculate(TaxCalculationConditions conditions)
         {
             double tax;
-            if (conditions.JoiningDate == null)
-                return 0;
             if (conditions.Income < 1500)
                 tax = conditions.Income * 0.05;
             else if (conditions.Income < 3000)

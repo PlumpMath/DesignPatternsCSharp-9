@@ -12,5 +12,10 @@ namespace DesignPatternsCSharp.CRM
         {
             throw new NotImplementedException();
         }
+
+        internal double getAmount()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

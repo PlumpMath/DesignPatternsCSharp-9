@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsCSharp.CRM.R3SendingEmailToCustomer
+namespace DesignPatternsCSharp.CRM.R4Promotions
 {
-    public class R3SendingEmailToCustomer
+    public class R4Promotions
     {
         public void addOrder(Order order)
         {
@@ -25,8 +25,11 @@ namespace DesignPatternsCSharp.CRM.R3SendingEmailToCustomer
             EmailSender emailSender = new EmailSender();
             emailSender.sendOrderEmail(order);
 
-
-
+            double orderAmount = order.getAmount();
+            if(orderAmount > 200)
+            {
+                dataAccess.addPointsToCustomer(customerId, 10);
+            }
         }
     }
 }
