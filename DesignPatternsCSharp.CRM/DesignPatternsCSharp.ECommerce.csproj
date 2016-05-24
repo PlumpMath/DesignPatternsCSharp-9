@@ -48,8 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="R2SendingSmsToCustomer\R2SendingSmsToCustomer.cs" />
     <Compile Include="R3SendingEmailToCustomer\R3SendingEmailToCustomer.cs" />
-    <Compile Include="R4Promotions\PromotionManager.cs" />
     <Compile Include="R4Promotions\R4Promotions.cs" />
+    <Compile Include="Refactored\ECommerce.cs" />
+    <Compile Include="Refactored\Events.cs" />
+    <Compile Include="Refactored\ISystemEventsListener.cs" />
     <Compile Include="SmsSender.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.UserLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.UserLogAnalysis", "DesignPatternsCSharp.UserLogAnalysis\DesignPatternsCSharp.UserLogAnalysis.csproj", "{0DA44A9F-3A00-4F3D-8478-0E7B7898454A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.CRM", "DesignPatternsCSharp.CRM\DesignPatternsCSharp.CRM.csproj", "{2447047C-D569-44B6-AE1D-DC55D041A7DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsCSharp.ECommerce", "DesignPatternsCSharp.CRM\DesignPatternsCSharp.ECommerce.csproj", "{2447047C-D569-44B6-AE1D-DC55D041A7DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
